@@ -1,0 +1,24 @@
+## Calculo
+import unittest
+import Calculadora 
+
+print("Calculo Matemático")
+print("Ingresa el primer número :")
+n1=input()
+n1=float(n1)
+print("Ingresa el segundo número :")
+n2=input()
+n2=float(n2)
+print ("La Suma es :" , Calculadora.sumar(num1,num2))
+
+
+class Prueba(unittest.TestCase):  
+def tests_sumar(self):
+        self .assertEqual(Calculadora.sumar(2,5),7)
+        self .assertEqual(miModulo.sumar(4,2),6)
+        self .assertEqual(miModulo.sumar(8,9),17)
+        self .assertEqual(miModulo.sumar(8,5),13)
+if _name=="main_":
+    unittest.main()
+
+
